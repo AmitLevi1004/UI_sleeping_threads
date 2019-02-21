@@ -1,4 +1,3 @@
-package q2_2012_b_94;
 
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -22,16 +21,11 @@ public class Buttons extends JPanel{
 			buttons[i].addActionListener(lis);
 			this.add(buttons[i]);
 		}
-
-		
-	
-	
 }
 	
 	
 	
 	private class Listener implements ActionListener{
-
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			JButton b = (JButton)e.getSource();
