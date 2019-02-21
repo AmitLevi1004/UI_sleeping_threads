@@ -1,4 +1,3 @@
-package q2_2012_b_94;
 
 import javax.swing.JButton;
 
@@ -7,8 +6,6 @@ public class MyThread extends Thread{
 	
 	public MyThread(JButton b) {
 		this.b=b;
-		
-		
 	}
 	
 	public void run() {
@@ -25,7 +22,5 @@ public class MyThread extends Thread{
 			}
 			catch(InterruptedException e) {}
 		}
-		
 	}
-
 }
