@@ -1,16 +1,21 @@
-  import java.awt.Panel;
 
+/*
+ * This program represents 4 buttons.
+ * clicking on each button will display the numbers from 1 to random number. 
+ */
+
+import java.awt.Panel;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class Main {
 	public static void main(String[] args) {
-	
-	JFrame frame = new JFrame("exam");
-	frame.setSize(400,200);
-	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	Buttons b = new Buttons();
-	frame.add(b);
-	frame.setVisible(true);
+
+		JFrame frame = new JFrame("exam");
+		frame.setSize(400, 200);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		ButtonsPanel b = new ButtonsPanel();
+		frame.add(b);
+		frame.setVisible(true);
 	}
 }
